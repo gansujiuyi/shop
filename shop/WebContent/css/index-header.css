@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*
+ * 项目 : 久易购
+ * 功能：头部样式
+ * 创建日期：2016.12.14
+ */
+/*首页头部*/
+.header-top{height: 32px; line-height: 32px; background: #eee; font-family: "microsoft yahei";}
+.header-list>li{float: left;position: relative;z-index: 98;}
+.header-list>li>a {display: inlie-block; border-right: 1px solid #ccc;height: 16px; line-height: 30px; width: 66px;padding: 0 10px;color: #999;}
+.header-list>li.last-no-border>a {border:  none;}
+.header-list>li>a:hover{color: #f94c53;}
+/*头部我的商城下拉效果*/
+.header-list>li:hover .drop-menu{display: block;}
+.drop-menu{display: none; position: absolute;left: 0; top:32px;z-index: 99;width: 64px; padding: 0 12px; background: #fff; border: 1px solid #eee; border-top: none; font-family: "microsoft yahei";}
+.drop-menu li a{display: block; color: #666;height: 22px; line-height: 22px;}
+.drop-menu li a:hover{color: #f94c53;}
+/*logo和search*/
+.jy_logo .header-search .search-box{margin:30px 35px 0 0;position:relative;}
+.jy_logo .header-search .search-box .search-select{border:2px solid #ddd;}
+.jy_logo .header-search .search-box .search-select:focus{border:none;}
+.jy_logo .header-search .search-box .search-select,.float_search_wrap .search-select{float:left;width:60px;height:35px;}
+.float_search_wrap .search-select{border:1px solid #ddd;height:30px;}
+.jy_logo .header-search .search-box .search-input{border:none;color: #ccc; width: 400px;height: 39px;padding: 0 10px;*line-height: 31px;line-height: 31px\0;}
+.jy_logo .header-search .search-box .search-btn{background: #f94c53;border: none;color: #fff;padding:0px 19px;font-size: 16px;height:42.5px;cursor: pointer; *padding: 0 13px;padding: 0 22px\9\0;}
+/*头部店铺商品下拉选项*/
+.select-box{border:2px solid #f94c53;border-right:none;}
+.dropDown{width:68px;height: 39px;position: relative;float: left;border-right:1px solid #ddd;}
+.dropBtn{height: 39px;width:68px;cursor: pointer;position: absolute;left: 0;top: 0;z-index: 20;display: block;background: #fff;filter: alpha(opacity=0);-moz-opacity: 0;-khtml-opacity: 0;opacity: 0;}
+.dropDown input{width: 58px;height: 39px;line-height: 39px;border:none;font-size: 14px;color:#6c6c6c;padding-left: 10px;}
+.dropDown .iconshop1{background: url(../images/iconshop.png) no-repeat  50px center;overflow: hidden;}
+.dropDown .iconshop2{background: url(../images/iconshop2.png) no-repeat  50px center;overflow: hidden;}
+.dropList{clear: both;position:absolute;z-index:99999!important;width:67px;display: none;border: 1px solid #ddd;margin: -2px 0 0 -1px;}
+.dropList li{height: 32px;line-height: 32px;font-family:"microsoft yahei";padding-left: 10px;cursor: pointer;font-size: 14px;color: #666;background: #fff;}
+.dropList li:hover{background: #f6f6f6;}
+/*热门搜索*/
+.hot-query{margin-top: 5px;color: #666;font: 14px "microsoft yahei";}
+.hot-query dd a{margin-right: 10px;}
+/*热门搜索 End */
+/*nav*/
+.jy_nav{background: #fd9094;height:40px;line-height:40px;}
+.jy_nav .jy_nav_dl dt{width: 200px;}
+.jy_nav .jy_nav_dl dt,.jy_nav .jy_nav_dl dd{float: left;}
+.jy_nav .jy_nav_dl dt a,.jy_nav .jy_nav_dl dd a{display: block;color: #fff;font-size: 16px;font-family: "microsoft yahei";}
+.jy_nav .jy_nav_dl dt a{width:200px;text-align:center;background: #f94c53;}
+.jy_nav .jy_nav_dl dd a{padding: 0 22px;}
+.jy_nav .jy_nav_dl dd a.here,.jy_nav .jy_nav_dl dd a:hover{background: #f94c53;}
+.jy_nav .jy_nav_dl dd a.shouye{display: inline-block;height: 38px;border-top: 2px solid #f94c53;border-bottom: 1px solid #f94c53; background: #fff;color: #f94c53;}
+
+/*账户信息头部*/
+.myMall{margin: 33px 0 33px 30px;}
+.myMall span{display: block; padding-left: 30px; border-left: 1px solid #eee; height: 38px; font: 500 24px/38px "microsoft yahei"; color: #f94c53;}

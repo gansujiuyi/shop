@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*
+ * 项目 : 久易购
+ * 功能：注册
+ * 创建日期：2016.12.15
+ */
+/*注册*/
+@charset "utf-8";
+/*步骤进度 开始*/
+.bar_box_left,.bar_box_right,.process_box div.step span,.success_icon{display: inline-block; background: url(../images/regist_piocess.png)  no-repeat left top;}
+.process_box{position: relative; width: 900px; margin: 40px auto 0; height: 75px;}
+.bar_box{width: 900px;height: 16px; line-height: 16px;}
+.bar{display: inline-block;width: 384px; height: 14px; background: #fff; border: 1px solid #f94c53;}
+.bar.on{background: #f94c53;}
+.bar_box_left,.bar_box_right{width: 62px; height: 16px;background-position: 0 -57px;}
+.bar_box_right{background-position: -0px -82px; margin-left: -2px;}
+.bar_box_right.on{background-position: -66px -57px;}
+.bar_box_left{margin-right: -2px;}
+.process_box div.step{position: absolute; left: 40px; top:-20px;text-align: center;font-size: 14px; color: #999; }
+.process_box div p{margin-top: 5px;}
+.process_box div.step span{width: 50px; height: 50px;text-align: center; font:bold 26px/50px arial; color: #fff;}
+.process_box div.step2{left:400px;}
+.process_box div.step3{left: 785px;}
+.process_box div.curr span{background-position: -53px 0;}
+.process_box div.curr p{color: #f94c53;}
+/*步骤进度 结束*/
+.register_box{background: #fff; border: 1px solid #ddd;padding: 85px 0;}
+.register_box ul{margin-left: 310px; font-size: 14px; color: #444;}
+.register_box ul li{padding: 5px 0;clear: both;overflow: hidden;}
+.register_box ul li label{display: inline-block;width:130px; text-align: right;}
+.register_box ul li label i{display: inline-block; width: 7px; height: 8px; margin-right:5px; background: url(../images/necessary.png) no-repeat left top ;}
+.register_box ul li input{display: inline-block;width: 218px; height: 32px;line-height: 32px; text-indent: 10px;color: #ccc; font-size: 14px; border: 1px solid #eee;}
+.get_yanzm{display: inline-block;font-size: 12px; width: 108px; text-align: center; height: 32px;line-height: 32px; border: 1px solid #ddd; background: #eee; color: #999; margin-left:6px;cursor: pointer;}
+/*注册成功*/
+.icon-success{margin-right: 20px;}
+.success_box{margin-left: 470px;}
+.success_box h2{font:normal 24px "microsoft yahei"; color: #444;}
+.success_box span{font-size: 14px; color: #666;}
+.success_box span a{font-size: 14px; color: #c30909; text-decoration: underline;}
+/*提交按钮*/
+.edit_submit_1{margin-top: 38px;padding-right:90px;}
+.edit_submit_1 a { display: inline-block;font: 16px "microsoft yahei";padding: 5px 35px;}

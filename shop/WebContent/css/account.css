@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*
+ * 项目 : 久易购
+ * 功能：账户信息
+ * 创建日期：2016.12.16
+ */
+/*=====================账户信息首页============*/
+/*左侧菜单*/
+.account-menu{width: 168px; border: 1px solid #eee; margin-right: 15px;}
+.account-menu .menu-box dt{height: 30px; font: normal 16px/30px "microsoft yahei"; background: #f94c53; color: #fff; text-align: center;}
+.account-menu .menu-box dd{height: 40px;font: normal 14px/40px "microsoft yahei"; text-align: center;}
+.account-menu .menu-box dd a{display: block;color: #666;}
+.account-menu .menu-box dd a:hover,.account-menu .menu-box dd.on a{color: #f94c53;}
+.account-menu .menu-box dd a:hover .icon-security,.account-menu .menu-box dd.on a .icon-security{background-position: -21px -16px;}
+.account-menu .menu-box dd a:hover .icon-location,.account-menu .menu-box dd.on a .icon-location{background-position: 0px -39px;}
+.account-menu .menu-box dd a:hover .icon-person,.account-menu .menu-box dd.on a .icon-person{background-position: -41px -39px;}
+/*右侧内容*/
+.tips,a.tips{color: #c30909;}
+.account-content{width: 1013px; border: 1px solid #eee;}
+.account-item{padding: 30px;}
+.account-info,.security-level{margin-top: 30px;}
+.account-info .account-head{position: relative; width: 108px; height: 108px; margin-right: 30px;}
+.account-info .account-head img{width: 108px; height: 108px;}
+.account-info .account-head .dismak{position: absolute; left: 0;bottom: 0; z-index: 9; display: block; width: 108px; text-align: center;  height: 20px; line-height: 20px; color: #fff; font-size: 13px;  background: url(../images/dismak-bg.png) repeat left top;}
+.account-info .account-head .edit-head{position: absolute; left: 0;bottom: 0; z-index:10;width: 108px;opacity: 0; filter: Alpha(opacity=0);}
+.account-info dd{float: left;width: 790px; height: 25px;line-height: 25px;font-size: 13px;}
+.security-level{font-size: 13px;}
+.level-bar{position: relative; display: inline-block; width: 102px; height: 6px;background: #eee; margin: 0 5px;  border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px; -moz-border-radius: 2px;}
+.level-bar var{position: absolute;left: 0; top: 0px; display: inline-block; background: #f94c53; height: 6px; border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px; -moz-border-radius: 2px;}
+.account-deal li{clear: both;overflow: hidden; height: 88px;  border-bottom: 1px dashed #eee;}
+.account-deal li.noborder{border: none;}
+.account-deal a.deal-btn{display: block;width: 98px; text-align: center; margin-top: 31px; font: normal 14px/24px "微软雅黑"; height: 24px; margin-right: 25px; background: #fff; color: #f94c53; border: 1px solid #f94c53;border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; -moz-border-radius:3px;}
+.account-deal a:hover{background: #f94c53; color: #fff;}
+.deal-box{width: 825px; overflow: hidden;}
+.deal-box span{float: left;display: block;height: 88px;line-height: 88px;text-align: center;font-size: 13px;}
+.deal-box .deal-flag{ width: 65px;height: 70px;line-height: 20px; margin-top: 18px;}
+.deal-box .deal-name{ width: 160px;font-size: 16px;}
+/*账户信息-绑定手机*/
+/*123步骤*/
+.bar_box_left,.bar_box_right,.process_box div.step span,.success_icon{display: inline-block; background: url(../images/account_piocess.png)  no-repeat left top;}
+.process_box{position: relative; width: 900px;margin-top: 40px; height: 75px;}
+.bar_box{width: 900px;height: 6px; line-height: 6px;}
+.bar{display: inline-block;width: 318px; height: 6px; background: #eee; }
+.bar.on{background: #f94c53;}
+.bar_box_left,.bar_box_right{width:133px; height: 6px;background-position: 0 -55px;}
+.bar_box_right{background-position: 0px -70px; margin-left: -2px;}
+.bar_box_right.on{background-position: 0 -86px;}
+.bar_box_left{margin-right: -2px;}
+.process_box div.step{position: absolute; left:125px; top:-20px;text-align: center;font-size: 14px; color: #999; }
+.process_box div p{margin-top: 5px;}
+.process_box div.step span{width: 50px; height: 50px;text-align: center; font:normal 18px/50px arial; color: #999;}
+.process_box div.step2{left:400px;}
+.process_box div.step3{left: 715px;}
+.process_box div.curr span{background-position: -53px 0;color: #fff;}
+.process_box div.curr p{color: #f94c53;}
+/*步骤 结束*/
+/*手机绑定*/
+.bound-phone{margin-top: 60px;}
+.bound-phone ul {margin: 0px 0 0 215px;}
+.bound-phone ul li {font: normal 13px/45px "微软雅黑";clear: both; overflow: visible;}
+.bound-phone ul li label{display: inline-block;width: 195px; text-align: right;float: left;}
+.bound-phone ul li .send-email,.bound-phone ul li .send-phone{background: #f94c53;color: #fff; cursor: pointer;padding: 8px 6px; margin-left: 10px;}
+.bound-phone ul li .send-phone{background: #eee;color: #999;}
+/*提交按钮*/
+.edit_submit{margin-top: 38px; margin-left:415px;}
+.edit_submit a { display: inline-block;font: 16px "microsoft yahei";padding: 5px 35px;}
+/*绑定成功*/
+.icon-success{margin-right: 20px;}
+.success_box{margin:90px 0 0 320px}
+.success_box p{font:normal 16px "microsoft yahei"; color: #444;}
+.success_box span{display: block; font-size: 13px; color: #666; padding: 5px 0;}
+.success_box span a{font-size: 13px; color: #c30909; }
+/*设置安保问题*/
+.account-tip{text-align: center; padding: 10px 40px; border: 1px solid #f94c53; background: #fef6f6;margin-bottom: 30px;}
+.account-tip .icon-emailTip{margin: 0 8px -5px 0;}
+.security-problem li select{ border: 1px solid #eee;color: #666;display: inline-block;font-size: 13px; height: 34px;line-height: 34px;text-indent:3px; width: 180px;}
+/*模拟select*/
+.select-box{position: relative; float: left; z-index: 9;}
+.bound-phone .select-text{margin-top: 5px; font-size: 13px; height: 32px;line-height: 32px;text-indent:5px;  border: 1px solid #eee; width: 178px; background: url(../images/select.png) no-repeat  left top; background-position: 163px 13px;}
+.bound-phone .select-model{display: none; position: absolute;z-index: 99; left: 0; top:5px; width: 178px;padding-left: ; margin: 0;background: #fff;border: 1px solid #eee;}
+.bound-phone .select-model li{padding-left: 5px;height: 25px;line-height: 25px;cursor: pointer;font-size: 13px; color: #666;}
+.bound-phone .select-model li:hover{background: #5ab7e3;color: #fff;}
+/*设置支付密码*/
+.payPwd-tip{height:20px; line-height: 20px;color: #999;font-size: 13px;margin-left: 195px;}

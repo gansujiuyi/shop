@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+/*
+ * 项目 : 久易购
+ * 功能：公共样式表
+ * 创建日期：2016.12.14
+ */						 
+*{ margin:0; padding:0; list-style:none; }
+body{font: 12px/1.5 tahoma,arial,"Hiragino Sans GB",microsoft yahei,sans-serif; color:#444; background:#fff; margin:0;}
+body,div,form,img,ul,ol,li,dl,dt,dd,p{margin:0; padding:0; border:0;}
+ul,li,ol,dl,dt,dd{list-style:none;}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0; }
+.clearfix:after, .clearfix:after, .main:after, .left:after, .right:after, dl:after, dt:after, dd:after, ul:after, li:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+i,em,var{ font-style:normal;}
+font{ font-size:12px;}
+iframe{display:block;border:0;}
+/* 屏蔽文本框高亮 */
+input,textarea{outline: none;}
+input[type=checkbox],input[type=radio]{ vertical-align:middle; cursor:pointer; }
+/* link */
+a{ color:#444; text-decoration: none;}
+a:link{ color:#444; text-decoration: none;}
+a:hover{ color:#f94c53; text-decoration:none;}
+a:active, a:focus {-moz-outline:none;outline:none;ie-dummy:expression(this.hideFocus=true);}
+.bule:link{color:#3a65d5;}
+.bule:visited{color:#333;}
+.bule:hover{color:#f60; text-decoration:underline;}
+.red:link{color:#cc0613;}
+.red:hover{color:#666; text-decoration:underline;}
+/*通用样式*/
+.fl{float:left;}
+.fr{float:right;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.co{ clear:both; overflow:hidden;}
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+.mb10{ margin-bottom:10px;}
+.mb20{ margin-bottom:20px;}
+.ml5{ margin-left:5px;}
+.ml10{ margin-left:10px;}
+.mr10{ margin-right:10px;}
+.pd10{padding:10px;}
+.pt10{ padding-top:10px;}
+.pt5{ padding-top:5px;}
+.pb10{ padding-bottom:10px;}
+.pl10{ padding-left:10px;}
+.pr10{ padding-right:10px;}
+.b{border:1px solid #eee;}
+.b-b{border-bottom:1px solid #eee;}
+.hidden{display:none;}
+.fw{font-weight:bold;}
+/*字体大小*/
+.ft14{font-size:14px;}
+.ft16{font-size:16px;}
+.ft18{font-size:18px;}
+.ft24{font-size:24px;}
+.ft32{font-size:32px;}
+/*字体颜色*/
+.col666{color:#666;}
+.col999{color: #999;}
+.colblue,a.colblue{color: #2089cb;}
+.colred,a.colred{color: #f94c53;}
+.colpink,a.colpink{color: #fb7075;}
+.normal{font-weight:normal;}
+.fw{font-weight:bold;}
+.fY{font-family: "microsoft yahei";}
+
+/* BODY */
+.page{ width:1200px; margin:0 auto;}
+
+
+
+/*图标*/
+.icon{display: inline-block;background: url(../images/icon.png)  no-repeat left top;}
+.icon-shopCar{width: 14px; height: 14px; background-position: -48px 0;  margin: 0 5px -2px 0;}
+.icon-arrowDown{width: 10px; height: 10px; background-position: -16px 0; margin-left: 10px;}
+.icon-arrowUp{width: 10px; height: 10px; background-position: -32px 0; margin-left: 10px;}
+.icon-security,.icon-location,.icon-person{width: 15px; height: 18px;margin-left: 10px;margin-bottom: -4px;}
+.icon-security{background-position: 0px -16px; }
+.icon-location{background-position: -41px -16px; }
+.icon-person{background-position: -20px -39px; }
+.icon-conplate{width: 32px; height: 32px;background-position: 0px -64px;}
+.icon-unbound{width: 32px; height: 32px;background-position: -42px -63px;}
+.icon-success{width: 52px; height: 52px;background-position: 0px -104px;}
+.icon-emailTip{width: 18px; height: 18px; background-position: -56px -106px; margin: 0 10px -5px 0;}
+/*==============头部============= */
+.header-wrapper{height: 107px; border-bottom: 2px solid #f94c53;}
+/*logo*/
+.logo-wrap{padding: 28px 0 20px 0;}
+.jy_logo{height: 110px; background: #fff; clear: both;overflow: hidden;}
+.jy_logo .logo-img{display: block;width: 177px; height: 56px;}
+/*正、低、 全*/
+.mall-advance{margin-top: 35px; }
+.mall-advance dl{float: left; width: 100px;font: 14px "microsoft yahei"; color: #666; margin-right: 10px;}
+.mall-advance dl dt{float: left;width: 37px; height: 37px;  text-align: center; font: 14px/37px "microsoft yahei"; margin-right: 5px; color: #fb7075; background: url(../images/circle.png)  no-repeat left top;}
+.mall-advance dl dd{float: left; width: 58px;}
+/*底部*/
+.footer-box{background: #eee;padding: 30px 0;height: 150px;overflow: hidden;clear: both;color: #666}
+.fb-content dl{ border-right: 1px solid #dcdcdc;float: left; height: 150px; margin-left: 65px;overflow: hidden; width: 150px;}
+.fb-content dl.noborder{border: none;}
+.fb-content dl dt{font: normal 16px/32px "microsoft yahei";;}
+.fb-content dl dd a{font: normal 12px/25px "microsoft yahei";color: #666;}
+.fb-left{float: left;margin-top: 15px;}
+.fb-left .phone-num{display: block; font: bold 24px "microsoft yahei"; color: #f94c53; padding: 10px 0;}
+.erweima-box {float: right; width: 154px; height: 154px; overflow: hidden;}
+.erweima-box img{display: inline-block; vertical-align: middle;text-align: center;}
+.footer-wrapper .version{height: 38px;text-align: center; background: #fa4d53;color: #fff; font: normal 14px/38px "microsoft yahei";}
+
+/*验证提示*/
+.onShow {color: #666; font-size: 12px;line-height: 30px; padding-left: 5px; vertical-align: middle;}
+/*===========按钮===============*/
+a.red-btn,.red-btn{background: #f94c53; border-radius: 3px;color: #fff; cursor: pointer;}
+a.grey-btn ,.grey-btn{ background: #eee ;color: #444;border-radius: 3px;cursor: pointer;}
+
+/*标题*/
+.h2-redTag{font: normal 16px "microsoft yahei";color: #666; }
+.h2-redTag span{float: left;margin: 5px 5px 0 0; background: #f94c53; width: 2px; height: 12px;}
+/*文本框*/
+.input-218{border: 1px solid #eee; color: #666;display: inline-block;font-size: 13px;height: 32px;line-height: 32px;text-indent: 10px; width: 218px;}
